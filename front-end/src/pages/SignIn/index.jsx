@@ -13,7 +13,7 @@ export function SignIn() {
         <h1>RocketMovies</h1>
         <p>Aplicação para acompanhar tudo que assistir.</p>
 
-        <h2>Crie sua conta</h2>
+        <h2>Faça seu login</h2>
 
         <Input placeholder="E-mail" type="text" icon={FiMail} />
 

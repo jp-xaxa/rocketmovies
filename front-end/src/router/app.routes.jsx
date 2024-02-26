@@ -6,7 +6,8 @@ import { Profile } from "../pages/Profile"
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Profile />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   )
 }

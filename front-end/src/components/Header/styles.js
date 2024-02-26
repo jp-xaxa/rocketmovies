@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.header`
+  grid-area: "header";
+
   width: 100%;
   height: 116px;
 
@@ -29,13 +31,14 @@ export const Profile = styled.div`
     display: flex;
     flex-direction: column;
 
-    > strong {
+    > a:nth-child(1) {
       font-size: 14px;
       color: ${({ theme }) => theme.COLORS.WHITE};
       white-space: nowrap;
+      margin-bottom: 8px;
     }
 
-    > a {
+    > a:nth-child(2) {
       font-size: 14px;
       color: ${({ theme }) => theme.COLORS.GRAY_300};
       text-align: right;

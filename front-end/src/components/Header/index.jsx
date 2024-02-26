@@ -12,7 +12,7 @@ export function Header() {
 
       <Profile>
         <div>
-          <strong>João Pedro</strong>
+          <Link to="/profile">João Pedro</Link>
           <Link to="/register">sair</Link>
         </div>
 

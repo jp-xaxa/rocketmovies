@@ -13,7 +13,15 @@ export const Container = styled.button`
   font-weight: 500;
   margin-top: 16px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   &:disabled {
     opacity: 0.5;
+  }
+
+  > svg {
+    margin-right: 10px;
   }
 `

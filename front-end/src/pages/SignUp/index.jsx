@@ -21,7 +21,7 @@ export function SignUp() {
 
         <Input placeholder="Senha" type="password" icon={FiLock} />
 
-        <Button title="Entrar" />
+        <Button title="Cadastrar" />
 
         <Link to="/">
           <FiArrowLeft /> Voltar para o login

@@ -11,6 +11,35 @@ export const Container = styled.div`
     "content";
 `
 
+export const Button = styled.div`
+  width: 100%;
+  height: 56px;
+
+  background-color: ${({ theme }) => theme.COLORS.PINK};
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+
+  border: none;
+  border-radius: 10px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  > svg {
+    margin-right: 10px;
+  }
+`
+
 export const Subheader = styled.div`
   grid-area: "subheader";
 

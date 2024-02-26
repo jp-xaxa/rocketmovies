@@ -1,8 +1,9 @@
-import { Container, Subheader, Section } from "./styles"
+import { Container, Subheader, Section, Button } from "./styles"
 import { FiPlus } from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
 import { Header } from "../../components/Header"
-import { Button } from "../../components/Button"
 import { Note } from "../../components/Note"
 
 export function Home() {
@@ -13,7 +14,10 @@ export function Home() {
       <Subheader>
         <h1>Meus filmes</h1>
 
-        <Button title="Adicionar filme" icon={FiPlus} />
+        <Button>
+          <FiPlus />
+          Adicionar filme
+        </Button>
       </Subheader>
 
       <Section>

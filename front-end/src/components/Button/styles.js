@@ -10,6 +10,7 @@ export const Container = styled.button`
   border: none;
   border-radius: 10px;
   padding: 0 16px;
+  font-size: 16px;
   font-weight: 500;
   margin-top: 16px;
 
@@ -19,9 +20,5 @@ export const Container = styled.button`
 
   &:disabled {
     opacity: 0.5;
-  }
-
-  > svg {
-    margin-right: 10px;
   }
 `

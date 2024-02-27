@@ -1,7 +1,5 @@
-import { Container, Subheader, Section, Button } from "./styles"
+import { Container, Subheader, Section, New } from "./styles"
 import { FiPlus } from "react-icons/fi"
-
-import { Link } from "react-router-dom"
 
 import { Header } from "../../components/Header"
 import { Note } from "../../components/Note"
@@ -14,10 +12,10 @@ export function Home() {
       <Subheader>
         <h1>Meus filmes</h1>
 
-        <Button>
+        <New to="/new-movie">
           <FiPlus />
           Adicionar filme
-        </Button>
+        </New>
       </Subheader>
 
       <Section>

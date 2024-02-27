@@ -9,6 +9,8 @@ export const Container = styled.div`
 
   padding: 32px;
 
+  cursor: pointer;
+
   > h1 {
     margin-bottom: 8px;
 

@@ -18,25 +18,12 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
-  > div {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-
-    margin-bottom: 15px;
-
-    > svg {
-      font-size: 12px;
-      color: ${({ theme }) => theme.COLORS.PINK};
-    }
-  }
-
   > p {
     font-size: 16px;
     color: ${({ theme }) => theme.COLORS.GRAY_200};
     text-align: justify;
 
-    margin-bottom: 15px;
+    margin: 15px 0;
   }
 
   > footer {
